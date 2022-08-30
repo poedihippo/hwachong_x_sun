@@ -1,0 +1,68 @@
+.dropdown {
+  font-family: "Lato", sans-serif;
+}
+
+.dropdown hr {
+  border: 0.5px solid #a6a6a6;
+}
+
+.label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.label h1 {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height, or 150% */
+
+  color: #f2652f;
+}
+
+.arrow {
+  width: 12px;
+  height: 12px;
+  border-left: 3px solid #313132;
+  border-bottom: 3px solid #313132;
+  margin-right: 30px;
+  transform: rotate(315deg);
+  transition: all 0.5s ease-in-out;
+}
+
+.active {
+  transform: rotate(135deg);
+}
+
+.content {
+  transition: all 0.5s ease-in-out;
+  display: none;
+  animation: growDown 0.5s ease-in-out forwards;
+  transform-origin: top center;
+}
+
+@keyframes growDown {
+  0% {
+    transform: scaleY(0);
+  }
+  80% {
+    transform: scaleY(1.1);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+
+.content_active {
+  display: block;
+}
+
+@media screen and (max-width: 480px) {
+  .label h1 {
+    font-size: 18px;
+  }
+}

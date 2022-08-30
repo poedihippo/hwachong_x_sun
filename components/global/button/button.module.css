@@ -1,0 +1,25 @@
+.btn {
+  width: 118px;
+  border: none;
+  height: 49px;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 14px;
+  font-family: "Lato", sans-serif;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.outline {
+  background-color: transparent;
+  border: 1px solid #ffffff !important;
+}
+
+.btn:hover {
+  filter: grayscale(80%);
+}
+
+.outline:hover  {
+  background-color: #eaeaea;
+  color: black;
+}

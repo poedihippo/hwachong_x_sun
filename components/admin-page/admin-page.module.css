@@ -1,0 +1,50 @@
+.tableStudents {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* .tableStudents th {
+  border: 1px solid #000000;
+} */
+
+.tableStudents td,
+.tableStudents th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.tableStudents tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.tableStudents tr:hover {
+  background-color: #ddd;
+}
+
+.tableStudents th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04aa6d;
+  color: white;
+}
+
+.btn_detail{
+    width: 75px;
+    height: 30px;
+    border: none;
+    margin: 0 5px;
+    background-color: rgba(100, 100, 200, 1);
+    border-radius: 4px;
+    color: #fff;
+}
+
+.btn_delete{
+    width: 75px;
+    height: 30px;
+    border: none;
+    margin: 0 5px;
+    background-color: red;
+    border-radius: 4px;
+    color: #fff;
+}

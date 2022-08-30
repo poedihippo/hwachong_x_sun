@@ -1,0 +1,78 @@
+.description {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  width: 50%;
+  /* background-color: bisque; */
+}
+
+.benner_event {
+  width: 45%;
+  align-items: flex-end;
+}
+
+/* */
+
+.second ul li {
+  margin-bottom: 0.5rem;
+}
+
+.third table {
+  width: 40rem;
+}
+
+.label {
+  width: 35%;
+}
+
+.text {
+  width: 65%;
+}
+
+.popup_benner {
+  width: 40rem;
+  height: 90vh;
+}
+
+@media screen and (max-width: 480px) {
+  .description {
+    flex-direction: column;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  .benner_event {
+    width: 100%;
+    align-items: flex-end;
+  }
+
+  .first,
+  .second,
+  .third,
+  .fourth {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .popup_benner {
+    width: 25rem;
+    height: 75vh;
+  }
+
+  .label {
+    width: 30%;
+  }
+
+  .text {
+    width: 70%;
+  }
+
+  .third table {
+    width: 100%;
+  }
+}
