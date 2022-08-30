@@ -7,7 +7,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>HCIS Scholarship | Sun Education Group</title>
-        <link rel="icon" href="/images/icon.fav.png" />
+        <link rel="icon" href="/images/icon/fav.png" />
         <meta
           name="SUN Education Mobile App"
           content="SUN Education Mobile App, The FIRST overseas education app in Indonesia! Dapatkan info beasiswa dan segala info menarik lainnya. DOWNLOAD NOW"
