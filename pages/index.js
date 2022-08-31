@@ -9,12 +9,8 @@ export default function Home() {
         <title>HCIS Scholarship | Sun Education Group</title>
         <link rel="icon" href="/images/icon/fav.png" />
         <meta
-          name="SUN Education Mobile App"
-          content="SUN Education Mobile App, The FIRST overseas education app in Indonesia! Dapatkan info beasiswa dan segala info menarik lainnya. DOWNLOAD NOW"
-        />
-        <meta
-          name="SUN Education App"
-          content="Temukan berbagai informasi penting dan menarik untuk persiapan studi ke luar negeri-mu! Dapatkan info beasiswa hingga diskon spesial hanya di SUN Education Mobile App."
+          name="HCIS Scholarship x Sun Education Group"
+          content="Best scholarship from Hwa Chong International School, exclusively available only at SUN Education. Make sure you check all the application details and apply now!"
         />
       </Head>
       <LandingPage />
