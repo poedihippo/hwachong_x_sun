@@ -6,15 +6,11 @@ function Benner() {
   return (
     <div className={classes.benner}>
       <div>
-        <h2>We are excited to assist</h2>
-        <h1>
-          Hwa Chong International School <br />
-          in launching the Full Scholarship program
-          <br />
-          For IB Diploma program
-        </h1>
+        <h2>HCIS Scholarship</h2>
+        <h3>Programmer 2023</h3>
+        <h5>Grade 10/IGCSE O-Level Students</h5>
         <Button outline={true}>
-          <a href={"#event"}>Learn More</a>
+          <a href={"#event"}>Consult Now</a>
         </Button>
       </div>
     </div>

@@ -7,7 +7,7 @@ import Dropdown from "./dropdown/dropdown";
 function Description() {
   const [popupImage, setPopupImage] = useState(false);
 
-  let imgBenner = "/images/banner event/HCIS-Promotionbanner (3).jpg";
+  let imgBenner = "/images/banner event/HCIS-Promotionbanner-111.jpeg";
 
   return (
     <div className={classes.description}>
@@ -67,11 +67,13 @@ function Description() {
             <h4>Eligibility</h4>
             <ul>
               <li>Indonesian Nationality</li>
-              <li>Completed Grade 10/IGCSE O-Level Students in 2022</li>
+              <li>Completed Grade 10 in 2023</li>
+              <li>Top 20 Ranking in Current School</li>
               <li>
                 Good Academic Performance{" "}
                 <ol style={{ margin: "15px 0" }}>
-                  <li>IGSCE O-Level - A/A*s in 5 subjects</li>
+                  <li>IGCSE O-Level - 5A/A* in Main Subjects including English, Mathematics, Additional   
+    Mathematics, Two or More Pure Sciences, One or More Humanity Subjects)</li>
                   <li>National Curriculum - 90%</li>
                 </ol>
               </li>
@@ -79,6 +81,12 @@ function Description() {
               <li>
                 Participated in Competitions at National or International Level
                 (Academic or Non-Academic)
+              </li>
+              <li>
+                Registration Deadline: 14 February – 22 April 2023
+              </li>
+              <li>
+                Contact Person/RSVP: <a href={`https://wa.me/6287788833678`}>+62 877-8883-3678</a>
               </li>
             </ul>
           </div>
@@ -93,7 +101,7 @@ function Description() {
                   <td className={classes.label}>
                     <b>Date</b>
                   </td>
-                  <td className={classes.text}> : Saturday, 29 October 2022</td>
+                  <td className={classes.text}> : Saturday, 27th May 2023</td>
                 </tr>
                 <tr>
                   <td className={classes.label}>
