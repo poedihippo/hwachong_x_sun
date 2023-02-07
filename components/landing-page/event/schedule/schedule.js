@@ -40,11 +40,11 @@ function Schedule() {
             to hear from HCIS Admissions Team
           </p> */}
           <h1>Application Period</h1>
-          <p>16 - 30 September 2022</p>
+          <p>14 February - 22 April 2023</p>
           <br />
           <p>
             Scholarship Award Result: <br />
-            End of December 2022 (TBA)
+            TBA
           </p>
         </div>
       </div>
