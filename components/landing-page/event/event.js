@@ -8,7 +8,7 @@ function Event() {
       <div className={classes.header}>
         <h1>
           We are excited to assist Hwa Chong International School in <br />
-          launching the HCIS Scholarship Program 2022 for Indonesian students!
+          launching the HCIS Scholarship Program 2023 for Indonesian students!
         </h1>
       </div>
 

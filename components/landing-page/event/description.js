@@ -7,7 +7,7 @@ import Dropdown from "./dropdown/dropdown";
 function Description() {
   const [popupImage, setPopupImage] = useState(false);
 
-  let imgBenner = "/images/banner event/HCIS-Promotionbanner-111.jpeg";
+  let imgBenner = "/images/banner event/HCIS-Promotionbanner-new.jpeg";
 
   return (
     <div className={classes.description}>
@@ -27,7 +27,7 @@ function Description() {
         </ImagePopup>
       )}
       <div className={classes.content}>
-        <Dropdown title={"HCIS Scholarship Programme 2022"}>
+        <Dropdown title={"HCIS Scholarship Programme 2023"}>
           <div className={classes.first}>
             <table>
               <tbody>
